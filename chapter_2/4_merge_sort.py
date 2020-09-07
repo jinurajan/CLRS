@@ -1,3 +1,8 @@
+"""
+Divide and conquer
+
+
+"""
 
 
 def merge(A, p, q, r):
