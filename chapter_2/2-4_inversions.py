@@ -27,7 +27,7 @@ def find_inversions(array):
         for i in range(j):
             if array[i] > array[j]:
                 inversions.append((i, j))
-            if len(inversions) == 5:
+            if len(inversions) == l:
                 break
     return inversions
 
